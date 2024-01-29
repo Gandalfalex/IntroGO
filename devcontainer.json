@@ -1,0 +1,26 @@
+{
+    "name": "Go",
+    "image": "golang:latest",
+
+    // Set *default* container specific settings.json values on container create.
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "go.gopath": "/go",
+        "go.goroot": "/usr/local/go"
+    },
+
+    // Add the IDs of extensions you want installed when the container is created.
+    "extensions": [
+        "golang.Go",
+        "lukehoban.Go"
+    ],
+
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    // 'forwardPorts': [1234],
+
+    // Use 'postCreateCommand' to run commands after the container is created.
+    // 'postCreateCommand': "echo 'You can run additional commands here'",
+
+    // Comment out the next line to run as root instead.
+    "remoteUser": "vscode"
+}
