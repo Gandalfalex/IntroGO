@@ -1,0 +1,13 @@
+{
+    "name": "Go",
+    "image": "golang:latest",
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "go.gopath": "/go",
+        "go.goroot": "/usr/local/go"
+    },
+    "extensions": [
+        "golang.Go"
+    ],
+    "remoteUser": "vscode"
+}
